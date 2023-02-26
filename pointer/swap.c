@@ -14,6 +14,7 @@ int main(void) {
     return 0;
 }
 
+// ../double_pointer/swap.c에서 같은 함수 but 이중인 함수를 사용한다. 
 void swap(int *pa, int *pb) {
     int temp;
 
