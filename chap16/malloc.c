@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> // malloc, free를 위한 헤더파일
 
 int main(void) {
 
     int *pi;
     double *pd;
 
-    pi = (int *) malloc(sizeof (int));
+    pi = (int *) malloc(sizeof (int)); // 동적할당 -> 포인터 연결
     if(pi == NULL) {
         printf(" 메모리 부족함");
         exit(1);

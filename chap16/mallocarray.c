@@ -12,9 +12,9 @@ int main(void) {
         exit(1);
     }
 
-    printf("나이를 입력하세요 >>>");
+    printf("나이를 5번 입력하세요 >>>");
     for(i = 0; i < 5; i++ ){
-        scanf("%d", &pi[i]);
+        scanf("%d", &pi[i]); // scanf를 사용할 때는 vscode에서 실행이 안됨 (터미널에서해야함)
         sum += pi[i];
     }
 
