@@ -19,3 +19,8 @@ int main(void) {
 }
 
 // struct는 class같은 것인가?!
+// struct에서 멤버변수들의 크기가 다르면 맞춰주기 위한
+// **padding byte** 를 넣어 가지런하게 정렬하여 메모리 할당을 한다.
+// student struct에서 int(4bytes), double(8bytes)를 선언했지만
+// 8bytes + 8bytes(최대값) = 16bytes가 된다.
+
