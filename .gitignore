@@ -3,6 +3,3 @@ cmake-build-debug
 CMakeLists.txt
 
 .vscode
-
-pointer/address
-pointer/address.dSYM
