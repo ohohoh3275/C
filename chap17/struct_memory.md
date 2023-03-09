@@ -46,5 +46,5 @@ ch3(1) () () () () () () ()
 ```
 #include ~~~~
 
-#pragma pack(1);
+#pragma pack(1); // 이때도 pragma를 써서 제어했었음~!
 ```
